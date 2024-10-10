@@ -14,6 +14,51 @@ Tenho uma expeciencia prévia com PHP, e por necessidade de evolução das minha
 
 A proposta das aulas era fazer o sistema com Sqlite, porém não quis abrir mão do MySql e segui construindo o sistema nele.
 
+## Comandos após clonagem do repositório
+
+Após clonagem do repositório, caminha até a pasta do projeto
+```sh
+cd site-freelancer/
+```
+
+
+Crie o Arquivo .env
+```sh
+cp .env.example .env
+```
+Atualize essas variáveis de ambiente no arquivo .env
+```dosini
+APP_NAME="Site-Freelancer"
+
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=site-freelancer
+DB_USERNAME=root
+DB_PASSWORD=sua_senha_aqui
+
+```
+Instale as dependências do projeto
+```sh
+composer install
+```
+
+
+Gere a key do projeto Laravel
+```sh
+php artisan key:generate
+```
+
+Faça a migrate do database
+```sh
+php artisan migrate
+```
+
+
+Acesse o projeto
+[http://site-freelancer.test](http://site-freelancer.test)
+
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
