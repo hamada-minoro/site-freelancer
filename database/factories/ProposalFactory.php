@@ -19,7 +19,7 @@ class ProposalFactory extends Factory
     {
         return [
             'email' => fake()->safeEmail(),
-            'hours' => fake()->randomNumber(5, false) % 65535,
+            'hours' => fake()->numberBetween(5, 120),
             'project_id' => Project::factory(),
         ];
     }
