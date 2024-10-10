@@ -6,7 +6,7 @@
 
 ## Sobre o Projeto
 
-Meu primeiro projeto laravel, acompanhando as aulas do Rafael Lunardelli na plataforma Rocketseat, onde foi criado um site onde os clientes podem expor suas necessidades e receberem uma proposta de desenvolvedores freelancer em formato de horas trabalhadas.
+Meu primeiro projeto laravel, acompanhando as aulas do Rafael Lunardelli na plataforma Rocketseat, criamos um site onde os clientes podem expor suas necessidades e receberem uma proposta de desenvolvedores freelancer em formato de horas trabalhadas.
 
 ## Learning Laravel
 
