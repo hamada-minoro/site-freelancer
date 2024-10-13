@@ -1,9 +1,8 @@
 <x-layouts.app>
 
+        <livewire:projects.show :$project />
 
-        show
 
-
-        <livewire:projects.show />
+        <livewire:projects.proposals :$project />
 
 </x-layouts.app>
